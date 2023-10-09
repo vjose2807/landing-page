@@ -172,13 +172,15 @@ nav > ul {
   display: flex;
   align-items: center;
   height: 125px;
-  margin-left: 0.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   color: rgb(118, 189, 255);
 }
 
 #features .desc {
+  margin-right: 2rem;
   flex-direction: row;
-  margin-left: 0.5rem;
+  margin-left: 2rem;
 }
 
 .grid {

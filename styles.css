@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Poppins:wght@200&display=swap");
+
+@media (max-width: 720px) {
+  header {
+    font-size: 0.5rem;
+  }
+}
+
+#page-wrapper {
+  position: relative;
+}
+
+body {
+  background-color: rgb(223, 247, 255);
+  display: block;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+#header .logo img {
+  background-color: transparent;
+
+  height: 50px;
+}
+
+#header .logo {
+  justify-content: flex-start;
+  width: 60vw;
+  height: 50px;
+
+  cursor: pointer;
+}
+
+#header .logo img:hover {
+  transition: all 0.3s;
+  transform: scale(1.1);
+}
+
+#header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  justify-content: space-around;
+  min-height: 60px;
+  background-color: rgb(24, 39, 39);
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+nav > ul {
+  width: auto;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+#nav-bar ul li {
+  display: inline-block;
+  margin: auto 50px;
+}
+
+#nav-bar ul li .nav-link {
+  color: white;
+  text-decoration: none;
+}
+#nav-bar ul li .nav-link:hover {
+  color: rgb(118, 189, 255);
+  text-decoration: none;
+}
+
+#hero {
+  text-align: center;
+  margin-top: 50px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#hero h2 {
+  margin-bottom: 20px;
+  word-wrap: break-word;
+}
+
+#hero input[type="email"] {
+  max-width: 280px;
+  box-shadow: 0 0 10px 0 rgba(197, 203, 204, 0.335);
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+
+  width: 100%;
+  padding: 6px;
+}
+#hero input[type="submit"] {
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  background-color: rgb(118, 189, 255);
+  margin: 10px 0;
+  padding: 6px;
+  width: 100%;
+  max-width: 150px;
+}
+
+#hero input[type="submit"]:hover {
+  background-color: black;
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+#review {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+#pricing {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#video {
+  border-radius: 10px;
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#features {
+  margin-top: 30px;
+}
+
+#features .icon {
+  z-index: -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 125px;
+  width: 10vw;
+  color: rgb(118, 189, 255);
+}
+
+#features .desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 125px;
+  width: 30vw;
+  padding: 5px;
+}
+
+.grid {
+  display: flex;
+
+  justify-content: center;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin: 10px;
+  border: 3px solid rgb(118, 189, 255);
+  border-radius: 5px;
+}
+
+.product > .level {
+  background-color: #ffffff;
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+  justify-content: space-evenly;
+}
+
+.product > h2 {
+  margin-top: 15px;
+}
+
+li {
+  list-style: none;
+}
+
+.product > ol {
+  margin: 15px 0;
+}
+
+.product > button {
+  border: 0;
+  margin: 15px 0;
+
+  font-weight: 400;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  background-color: rgb(118, 189, 255);
+  margin: 10px 0;
+  padding: 6px;
+  width: 100%;
+  max-width: 150px;
+}
+
+.product button:hover {
+  background-color: black;
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+.btn {
+  text-transform: uppercase;
+  border: 3px black solid;
+  border-radius: 2px;
+}
+
+footer {
+  margin-top: 30px;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+.footer-content ul {
+  display: flex;
+  justify-content: flex-end;
+}
+.footer-content ul li {
+  margin: 0 10px;
+}
+
+footer > span {
+  display: flex;
+  font-size: 0.9em;
+  color: #444;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+div .footer-bottom span {
+  display: flex;
+  justify-content: flex-end;
+}
